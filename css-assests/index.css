@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+}
+
+body {
+  background-color: #191919;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (min-width: 1024px) {
+  section.main,
+  section.details,
+  section.features,
+  section.moredetails {
+    padding: 2.1rem 10rem;
+  }
+}

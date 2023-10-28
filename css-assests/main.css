@@ -1,0 +1,45 @@
+.main {
+  padding: 90px 16px;
+  margin-top: 1rem;
+}
+
+.main h1 {
+  font-size: 3rem;
+  line-height: 3.8rem;
+  font-weight: bold;
+}
+.main p {
+  color: #cecece;
+  padding: 2.1rem 0px;
+}
+.main .btn {
+  background: #3eb489;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #fff !important;
+  padding: 4px;
+  border-radius: 4px;
+}
+@media (min-width: 768px) {
+  .main h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    font-weight: 350;
+  }
+  .main p {
+    font-size: 1.2rem;
+  }
+  .main .btn {
+    font-size: 1.2rem;
+    padding: 4px;
+    border: none;
+  }
+}
+@media (min-width: 1024px) {
+  .br {
+    display: none;
+  }
+}

@@ -1,0 +1,31 @@
+footer {
+  text-align: center;
+  border-top: 0.1px solid #4d4d4e;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer div.img {
+  margin-top: 1rem;
+}
+/* footer div img {
+  margin-left: 4px;
+} */
+footer p a {
+  color: #e6e6ea;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  footer #flex {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  footer div.img {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+}

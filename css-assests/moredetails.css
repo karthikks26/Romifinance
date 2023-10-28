@@ -1,0 +1,101 @@
+.moredetails {
+  padding: 0 16px;
+}
+.moredetails .dbox {
+  border: 1px solid #4d4d4e;
+  padding: 1rem;
+}
+
+.moredetails h1 {
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 3.1rem;
+  letter-spacing: 0;
+}
+.moredetails img {
+  width: 50px;
+  height: 50px;
+}
+.moredetails .dbox .f1 {
+  display: flex;
+  align-items: center;
+}
+.moredetails h2 {
+  margin-left: 1.8rem;
+}
+.moredetails .dbox .s {
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  letter-spacing: 0;
+  color: #fff;
+  margin-top: 1.6rem;
+}
+section.moredetails p {
+  color: #bdbdbd;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+section.moredetails .buy {
+  background-color: #3eb489;
+  color: white;
+  max-width: 300px;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+}
+section.moredetails .more {
+  margin-top: 1rem;
+  background: none;
+  color: white;
+  max-width: 300px;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2px solid gray;
+  border-radius: 4px;
+  width: 100%;
+}
+section.moredetails .b2 {
+  margin-top: 1.5rem;
+}
+
+section #sm {
+  margin-top: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  section.moredetails > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  section.moredetails .buy {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  section.moredetails .buy,
+  .more {
+    width: 100px;
+  }
+  section.moredetails .more {
+    width: 100px;
+    white-space: nowrap;
+  }
+
+  section.moredetails .dbox {
+    width: 500px;
+  }
+  section.moredetails > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+}
